@@ -46,6 +46,6 @@ public class Cell
     }
 
     public boolean isCellEmpty() {
-        return this.cellState.equals(CellState.EMPTY);
+        return this.cellState == CellState.EMPTY;
     }
 }
